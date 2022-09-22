@@ -74,6 +74,6 @@ body {
     border-bottom: none;
 }
 
-.menu-bar ul li:hover .sub-menu-1 ul li:hover {
-    color: #b2ff00;
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    color: #020001;
 }
