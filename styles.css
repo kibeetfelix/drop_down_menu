@@ -47,6 +47,15 @@ body {
     display: none;
 }
 
+/* .show {
+    display: block;
+    position: absolute;
+    background: rgb(23, 141, 177);
+    margin-top: 15px;
+    margin-left: -15px;
+    border-radius: 10px;
+} */
+
 .menu-bar ul li:hover .sub-menu-1 {
     display: block;
     position: absolute;
@@ -76,4 +85,20 @@ body {
 
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover {
     color: #020001;
+}
+
+.fa-angle-right {
+    float: right;
+}
+
+.sub-menu-2 {
+    display: none;
+}
+
+.hover-me:hover .sub-menu-2 {
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 130px;
+    background-color: rgb(23, 141, 177);
 }
